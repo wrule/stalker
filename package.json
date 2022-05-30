@@ -1,0 +1,8 @@
+{
+  "name": "stalker",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/wrule/stalker.git",
+  "license": "MIT",
+  "private": false
+}
