@@ -9,5 +9,12 @@
   },
   "repository": "https://github.com/wrule/stalker.git",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "@binance/connector": "^1.10.0",
+    "@types/node": "^17.0.36",
+    "axios": "^0.27.2",
+    "ccxt": "^1.84.41",
+    "moment": "^2.29.3"
+  }
 }
