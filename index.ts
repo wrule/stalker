@@ -12,7 +12,7 @@ async function main() {
   if (rsp.status === 200) {
     const listenKey = rsp.data.listenKey;
     console.log(rsp.data);
-    const client = new Spot(secret.API_KEY, secret.SECRET_KEY, { baseURL: 'https://api2.binance.com' });
+    const client = new Spot(secret.API_KEY, secret.SECRET_KEY, { baseURL: 'wss://stream.binance.com:9443' });
     client.userData(listenKey, {
       open: () => console.log('open'),
       close: () => console.log('closed'),
